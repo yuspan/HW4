@@ -1,13 +1,33 @@
 ﻿body {
-    text-align: center;
+ 
     font-family: Calibri;
     font-size: large;
-    color: coral;
+    color: black;
+    margin: 50px;
+    padding:100px;
+    border:10px double black;
+    opacity:0.8;
+    background-color:white;
 }
+html {
+      background-image:url("background.jpg");
+ 
 }
 H1 {
     text-align: center;
-    font-style: italic;
-    font-family: Calibri;
+    color:#333333;
+    font-family: 'Century Gothic', Charcoal, sans-serif;
+    font-size:100px;
+}
+div {
+    background-color: whilte;
+    opacity:0.8;
+float:none;
+
 }
 
+#submit {
+    font-family: Cambria;
+    font-size: medium;
+    background-color: ButtonShadow;
+}

@@ -42,7 +42,17 @@ Partial Class _default
 
         'Display
         TaxPaid.Text = "$" & Tax.ToString("#,####.##")
-        Netpaylbl.Text = "You are paid by $" & NetEarnings.ToString("#,####.#")
+        Netpaylbl.Text = "You are paid by $" & NetEarnings.ToString("#,####.##")
+
+
+    End Sub
+
+    Protected Sub Clear_Click(sender As Object, e As EventArgs) Handles Clear.Click
+        TaxPaid.Text = String.Empty
+        Netpaylbl.Text = String.Empty
+        WagesText.Text = String.Empty
+        HoursText.Text = String.Empty
+        deductiontext.Text = String.Empty
 
 
     End Sub
